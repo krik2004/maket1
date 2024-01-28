@@ -285,8 +285,16 @@ body {
 }
 .first-block__text {
 	width: auto;
-	height: 100px;
+	height: 105px;
 	overflow: hidden;
+}
+
+@media (min-width: 768px){
+	.first-block__text {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
 }
 
 .first-block__text-block {
