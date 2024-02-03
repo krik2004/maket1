@@ -155,6 +155,10 @@ body {
 .button {
 	display: flex;
 	align-items: center;
+	opacity: 1;
+	transition-property: opacity;
+	transition-duration: 0.3s;
+	transition-timing-function: ease;
 }
 
 .logo-link {
@@ -184,7 +188,8 @@ body {
 	transition-timing-function: ease;
 }
 
-.menu__link:hover {
+.menu__link:hover,
+.button:hover {
 	opacity: 0.3;
 }
 
@@ -203,9 +208,9 @@ body {
 .menu__footer {
 	padding: 26px 0 0 24px;
 }
-.menu__nav{
-display: flex;
-gap:16px;
+.menu__nav {
+	display: flex;
+	gap: 16px;
 }
 .contact {
 	color: #1b1c21;
@@ -233,6 +238,6 @@ gap:16px;
 	padding-right: 7px;
 }
 .lang__act {
-	color: #7E7E82;
+	color: #7e7e82;
 }
 /* футер */
