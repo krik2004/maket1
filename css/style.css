@@ -331,9 +331,10 @@ body {
 }
 
 .slide-menu__item-btn {
-	padding: 8px 0;
-	width: 246px;
+	padding: 12px 14px;
+	/* width: 246px; */
 	/* height: 40px; */
+	white-space: nowrap;
 }
 
 .slide-menu__item-act {
@@ -351,7 +352,6 @@ body {
 		padding-left: 32px;
 	}
 }
-
 
 @media (min-width: 768px) {
 	.title {
