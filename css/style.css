@@ -265,6 +265,7 @@ body {
 }
 .slide-menu {
 	padding-left: 16px;
+	padding-top: 2px;
 }
 .slide-menu__list {
 	display: flex;
@@ -350,6 +351,8 @@ body {
 		padding-left: 32px;
 	}
 }
+
+
 @media (min-width: 768px) {
 	.title {
 		padding-left: 24px;
