@@ -70,6 +70,8 @@
 	position: relative;
 	transition-property: transform;
 	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .swiper-slide-invisible-blank {
 	visibility: hidden;
