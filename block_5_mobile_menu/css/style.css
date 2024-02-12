@@ -216,6 +216,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	position: fixed;
+	overflow: scroll;
     left: 0;
     top: 0;
     bottom: 0;
