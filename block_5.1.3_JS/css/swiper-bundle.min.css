@@ -35,6 +35,7 @@
 	padding: 0;
 	z-index: 1;
 	display: block;
+	width: 300px;
 }
 .swiper-vertical > .swiper-wrapper {
 	flex-direction: column;
@@ -65,13 +66,14 @@
 }
 .swiper-slide {
 	flex-shrink: 0;
-	width: 224px;
+	width: 24px;
 	height: 72px;
 	position: relative;
 	transition-property: transform;
 	display: flex;
     align-items: center;
     justify-content: center;
+	border-radius: 5px;
 }
 .swiper-slide-invisible-blank {
 	visibility: hidden;

@@ -12,5 +12,9 @@ new Swiper('.swiper',{
 //первый слайд по центру
 //   centeredSlides: true,
 // бесконечность прокрутки слайдов
-  loop: true,
+  // loop: true,
+
+  
+
+  
 });

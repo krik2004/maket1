@@ -160,3 +160,7 @@ background-image: url('/block_5.1.3_JS/logo/ic_go.svg');
     display: flex;
     gap: 20px;
 }
+.swiper-slide{
+	width: 240px;
+    height: 72px;
+}
