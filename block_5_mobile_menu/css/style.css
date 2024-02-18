@@ -138,7 +138,6 @@ body {
 	background: #fff;
 	color: #1b1c21;
 	font-size: 16px;
-	
 }
 
 .upper-menu {
@@ -151,7 +150,6 @@ body {
 	background: #fff;
 	justify-content: space-between;
 	gap: 17px;
-
 }
 
 .button {
@@ -210,18 +208,18 @@ body {
 .menu__footer {
 	padding: 26px 0 32px 24px;
 	margin-top: auto;
-
 }
-.body__wraper{
+.body__wraper {
 	display: flex;
 	flex-direction: column;
 	position: fixed;
-	overflow: scroll;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    background: #fff;
-    box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2), -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+	/* overflow: scroll; */
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background: #fff;
+	box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2),
+		-2px 0px 4px 0px rgba(69, 79, 126, 0.02);
 }
 .menu__nav {
 	display: flex;
