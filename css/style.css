@@ -362,7 +362,7 @@ body {
 	}
 	.first-block__content {
 		display: flex;
-		flex-wrap: nowrap;
+		flex-wrap: wrap;
 		align-items: start;
 		justify-content: space-between;
 		gap: 48px;
