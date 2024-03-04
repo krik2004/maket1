@@ -31,7 +31,6 @@ function showElementsInitially(i) {
 		if (i > 0) {
 			element.classList.add('brands-slider__slide--show')
 		}
-
 		i--
 	})
 }
@@ -47,10 +46,8 @@ function hideElements() {
 	slidesCollection.forEach(element => {
 		if (counter >= elementsToShow)
 			element.classList.remove('brands-slider__slide--show')
-
 		counter++
 	})
-
 	areElementsShown = false
 	showHideBtn.textContent = 'Показать все'
 }
